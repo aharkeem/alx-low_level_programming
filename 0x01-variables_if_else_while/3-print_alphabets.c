@@ -2,52 +2,41 @@
 
 #include <stdlib.h>
 
-
-
 /**
- *
- *  * main - returns alphabets both lower and upper cases
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+ * main - returns alphabets both lower and upper cases
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 
 {
 
-		int ch = 'a';
+int ch = 'a';
 
-			int CH = 'A';
+int CH = 'A';
 
+while (ch <= 'z')
 
+{
 
-				while (ch <= 'z')
+putchar(ch);
 
-						{
+ch++;
 
-									putchar(ch);
+}
 
-											ch++;
+while (CH <= 'Z')
 
-												}
+{
 
-					while (CH <= 'Z')
+putchar(CH);
 
-							{
+CH++;
 
-										putchar(CH);
+}
 
-												CH++;
+putchar('\n');
 
-													}
-
-
-
-						putchar('\n');
-
-							return (0);
+return (0);
 
 }
