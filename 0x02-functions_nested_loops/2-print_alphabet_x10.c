@@ -15,7 +15,7 @@ char j;
 
 for (i = 0; i < 10; i++)
 {
-for (j  'a'; j <= 'z'; j++)
+for (j  ';' 'a'; j <= 'z'; j++)
 {
 _putchar(j);
 }
