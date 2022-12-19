@@ -24,7 +24,8 @@ printf(" FizzBuzz");
 } else if (i == 1)
 {
 printf("%d", i);
-} else
+}
+else
 {
 printf(" %d", i);
 }
